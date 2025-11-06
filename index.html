@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bishesh Acharya | Interactive Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="loading">
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <div class="interactive-bg" id="interactiveBg"></div>
+
+  <nav class="nav-panel">
+    <a href="#home" class="nav-item active" data-tooltip="Home">
+      <i class="fas fa-home"></i>
+    </a>
+    <a href="#skills" class="nav-item" data-tooltip="Skills">
+      <i class="fas fa-code"></i>
+    </a>
+    <a href="#projects" class="nav-item" data-tooltip="Projects">
+      <i class="fas fa-laptop-code"></i>
+    </a>
+    <a href="#education" class="nav-item" data-tooltip="Education">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
+    <a href="#contact" class="nav-item" data-tooltip="Contact">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </nav>
+
+  <div class="success-message" id="successMessage">
+    <i class="fas fa-check-circle"></i> Message sent successfully!
+  </div>
+
+  <main class="main-content">
+    <section class="section" id="home">
+      <div class="home-content">
+        <div class="floating-cards">
+          <div class="floating-card" style="top: 15%; left: 85%;"></div>
+          <div class="floating-card" style="top: 75%; left: 5%;"></div>
+          <div class="floating-card" style="top: 35%; left: 10%;"></div>
+        </div>
+        
+        <div class="home-text">
+          <h1 class="glitch-text" data-text="BISHESH ACHARYA">BISHESH ACHARYA</h1>
+          <div class="typewriter">Developer • Creator • Innovator</div>
+          <p class="home-description">
+            I'm a passionate computer science student specializing in web development and exploring the fascinating world of artificial intelligence. I love transforming creative ideas into functional digital experiences through clean code and innovative design.
+          </p>
+          <a href="#contact" class="cta-button">
+            Get in Touch <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="home-image">
+          <img src="bisu.jpg" alt="Bishesh Acharya - Full Stack Developer" class="profile-image" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="skills-section-content">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-orb">
+            <i class="fab fa-html5"></i>
+            <div class="skill-name">HTML & CSS</div>
+          </div>
+          
+          <div class="skill-orb">
+            <i class="fab fa-js-square"></i>
+            <div class="skill-name">JavaScript</div>
+          </div>
+          
+          <div class="skill-orb">
+            <i class="fab fa-python"></i>
+            <div class="skill-name">Python</div>
+          </div>
+          
+          <div class="skill-orb">
+            <i class="fab fa-java"></i>
+            <div class="skill-name">Java</div>
+          </div>
+          
+          <div class="skill-orb">
+            <i class="fas fa-code"></i>
+            <div class="skill-name">C Programming</div>
+          </div>
+          
+          <div class="skill-orb">
+            <i class="fas fa-video"></i>
+            <div class="skill-name">Video Editing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="projects-section-content">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <div class="project-number">01</div>
+            <h3 class="project-title">PC Accessories Store</h3>
+            <p class="project-desc">
+              A comprehensive e-commerce platform built for PC accessories with modern features including secure user authentication, dynamic product listings, shopping cart functionality, and responsive design. Implemented with modern web technologies for optimal performance.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/pc-accessories-store-" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a href="https://bisu617.github.io/pc-accessories-store-/" class="project-link demo-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">02</div>
+            <h3 class="project-title">Flappy Space</h3>
+            <p class="project-desc">
+              A simple space-themed Flappy Bird clone built with Python and Pygame. Control your spaceship, avoid obstacles, and try to beat your high score! 
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/flappy_space.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a href="https://bisu617.github.io/flappy_space/" class="project-link demo-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">03</div>
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-desc">
+              An intuitive weather application that fetches real-time data from OpenWeatherMap API. Features location-based weather information, detailed forecasts, and clean UI with dynamic weather icons and animations.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/Weather-App" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">04</div>
+            <h3 class="project-title">Interactive To-Do List</h3>
+            <p class="project-desc">
+              A feature-rich task management application with local storage persistence, drag-and-drop functionality, priority levels, and smooth animations. Built with vanilla JavaScript for optimal performance and user experience.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/To-Do_List" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="education-section-content">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+          <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-year">2024 – Present</div>
+            <h3 class="education-title">Bachelor of Computer Science (BCS)</h3>
+            <p class="education-school">IIMS College – Affiliated with Taylor's University, Malaysia</p>
+            <p class="education-desc">
+              Currently in 2nd year, focusing on advanced software development, algorithms, data structures, and artificial intelligence fundamentals. Maintaining excellent academic performance while actively working on innovative personal projects and contributing to open-source communities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact-section-content">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-container">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <input type="text" class="form-input" id="name" name="name" placeholder=" " required maxlength="50" autocomplete="name">
+              <label class="form-label" for="name">Full Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-input" id="email" name="email" placeholder=" " required maxlength="100" autocomplete="email">
+              <label class="form-label" for="email">Email Address</label>
+            </div>
+            <div class="form-group">
+              <textarea class="form-textarea" id="message" name="message" placeholder=" " required maxlength="1000"></textarea>
+              <label class="form-label" for="message">Your Message</label>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span>Send Message</span>
+            </button>
+          </form>
+          
+          <div class="social-container">
+            <a href="https://www.instagram.com/bishesh077/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bishesh-acharya-0a5151294/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/Bishesh077" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:bisheshacharya22@gmail.com" class="social-link" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
