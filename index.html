@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bishesh Acharya | Full Stack Developer & AI Enthusiast | Portfolio</title>
+  
+ 
+  <meta name="description" content="Bishesh Acharya - Computer Science student specializing in web development, machine learning, and AI. View my projects including e-commerce platforms, credit risk prediction models, and interactive applications.">
+  <meta name="keywords" content="Bishesh Acharya, Full Stack Developer, Web Developer, Machine Learning, AI, XGBoost, Python Developer, JavaScript, Portfolio, Computer Science">
+  <meta name="author" content="Bishesh Acharya">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://bisu617.github.io/">
+  
+  <meta property="og:title" content="Bishesh Acharya | Full Stack Developer & AI Enthusiast">
+  <meta property="og:description" content="Computer Science student specializing in web development, machine learning, and AI. Explore my innovative projects and connect with me.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bisu617.github.io/">
+  <meta property="og:image" content="https://bisu617.github.io/bisu.jpg">
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bishesh Acharya | Full Stack Developer & AI Enthusiast">
+  <meta name="twitter:description" content="Computer Science student specializing in web development, machine learning, and AI.">
+  <meta name="twitter:image" content="https://bisu617.github.io/bisu.jpg">
+  <meta name="twitter:creator" content="@Bishesh077">
+  
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bishesh Acharya",
+    "url": "https://bisu617.github.io/",
+    "image": "https://bisu617.github.io/bisu.jpg",
+    "jobTitle": "Computer Science Student & Full Stack Developer",
+    "worksFor": {
+      "@type": "EducationalOrganization",
+      "name": "IIMS College"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "IIMS College",
+      "address": "Nepal"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/bishesh-acharya-0a5151294/",
+      "https://github.com/bisu617",
+      "https://x.com/Bishesh077",
+      "https://www.instagram.com/bishesh077/"
+    ],
+    "knowsAbout": ["Web Development", "Machine Learning", "Artificial Intelligence", "Python", "JavaScript", "XGBoost"]
+  }
+  </script>
+  
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+ 
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="loading">
+  
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader">
+      <div class="loader-circle"></div>
+      <div class="loader-text">LOADING</div>
+    </div>
+  </div>
+
+  
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+ 
+  <div class="interactive-bg" id="interactiveBg"></div>
+
+ 
+  <button class="theme-toggle" id="themeToggle" title="Toggle Theme" aria-label="Toggle dark/light mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+ 
+  <nav class="nav-panel" role="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-item active" data-tooltip="Home" aria-label="Navigate to Home">
+      <i class="fas fa-home"></i>
+    </a>
+    <a href="#about" class="nav-item" data-tooltip="About" aria-label="Navigate to About">
+      <i class="fas fa-user"></i>
+    </a>
+    <a href="#skills" class="nav-item" data-tooltip="Skills" aria-label="Navigate to Skills">
+      <i class="fas fa-code"></i>
+    </a>
+    <a href="#projects" class="nav-item" data-tooltip="Projects" aria-label="Navigate to Projects">
+      <i class="fas fa-laptop-code"></i>
+    </a>
+    <a href="#education" class="nav-item" data-tooltip="Education" aria-label="Navigate to Education">
+      <i class="fas fa-graduation-cap"></i>
+    </a>
+    <a href="#contact" class="nav-item" data-tooltip="Contact" aria-label="Navigate to Contact">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </nav>
+
+ 
+  <div class="success-message" id="successMessage" role="alert" aria-live="polite">
+    <i class="fas fa-check-circle"></i> 
+    <span id="messageText">Message sent successfully!</span>
+  </div>
+
+  
+  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  
+  <main class="main-content">
+   
+    <section class="section" id="home">
+      <div class="home-content">
+        <div class="floating-cards">
+          <div class="floating-card" style="top: 15%; left: 85%;"></div>
+          <div class="floating-card" style="top: 75%; left: 5%;"></div>
+          <div class="floating-card" style="top: 35%; left: 10%;"></div>
+        </div>
+        
+        <div class="home-text">
+          <h1 class="glitch-text" data-text="BISHESH ACHARYA">BISHESH ACHARYA</h1>
+          <div class="typewriter" id="typewriter"></div>
+          <p class="home-description">
+            I'm a passionate computer science student specializing in web development and machine learning. I love transforming creative ideas into functional digital experiences through clean code, innovative design, and cutting-edge AI technologies.
+          </p>
+          <a href="#contact" class="cta-button">
+            Get in Touch <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="home-image">
+          <div class="image-border"></div>
+          <img src="bisu.jpg" alt="Bishesh Acharya - Full Stack Developer" class="profile-image" />
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section" id="about">
+      <div class="about-section-content">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Full Stack Development</h3>
+            <p>Proficient in building responsive web applications using modern technologies. From frontend design to backend architecture, I create seamless digital experiences.</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Machine Learning</h3>
+            <p>Experienced in developing ML models with XGBoost, scikit-learn, and TensorFlow. I focus on building interpretable and production-ready solutions.</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Problem Solver</h3>
+            <p>Passionate about tackling complex challenges with innovative solutions. I combine technical expertise with creative thinking to deliver results.</p>
+          </div>
+        </div>
+        
+        <div class="stats-container">
+          <div class="stat-item">
+            <div class="stat-number" data-target="15">0</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="6">0</div>
+            <div class="stat-label">Technologies Mastered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="3">0</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="section" id="skills">
+      <div class="skills-section-content">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-orb" data-skill="95">
+            <i class="fab fa-html5"></i>
+            <div class="skill-name">HTML & CSS</div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-orb" data-skill="90">
+            <i class="fab fa-js-square"></i>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-orb" data-skill="88">
+            <i class="fab fa-python"></i>
+            <div class="skill-name">Python</div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-orb" data-skill="80">
+            <i class="fab fa-java"></i>
+            <div class="skill-name">Java</div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-orb" data-skill="75">
+            <i class="fas fa-code"></i>
+            <div class="skill-name">C Programming</div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-orb" data-skill="85">
+            <i class="fas fa-video"></i>
+            <div class="skill-name">Video Editing</div>
+            <div class="skill-progress">
+              <div class="skill-progress-bar" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="section" id="projects">
+      <div class="projects-section-content">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="game">Games</button>
+        </div>
+        <div class="projects-container">
+          <!-- Project 1 -->
+          <div class="project-card" data-category="ml">
+            <div class="project-number">01</div>
+            <h3 class="project-title">Credit Risk Prediction using XGBoost</h3>
+            <p class="project-desc">
+              End-to-end ML pipeline using XGBoost on the German Credit Dataset, achieving ~0.82 ROC-AUC with SHAP-based model explainability.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">XGBoost</span>
+              <span class="tech-badge">SHAP</span>
+              <span class="tech-badge">Machine Learning</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/credit-risk-xgboost" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+        
+          <div class="project-card" data-category="web">
+            <div class="project-number">02</div>
+            <h3 class="project-title">PC Accessories Store</h3>
+            <p class="project-desc">
+              A comprehensive e-commerce platform built for PC accessories with modern features including secure user authentication, dynamic product listings, shopping cart functionality, and responsive design.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">E-commerce</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/pc-accessories-store-" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a href="https://bisu617.github.io/pc-accessories-store-/" class="project-link demo-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+         
+          <div class="project-card" data-category="game">
+            <div class="project-number">03</div>
+            <h3 class="project-title">Flappy Space</h3>
+            <p class="project-desc">
+              A simple space-themed Flappy Bird clone built with Python and Pygame. Control your spaceship, avoid obstacles, and try to beat your high score! Features smooth gameplay mechanics and retro-style graphics.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pygame</span>
+              <span class="tech-badge">Game Development</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/flappy_space.git" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a href="https://bisu617.github.io/flappy_space/" class="project-link demo-link" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+      
+          <div class="project-card" data-category="web">
+            <div class="project-number">04</div>
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-desc">
+              An intuitive weather application that fetches real-time data from OpenWeatherMap API. Features location-based weather information, detailed forecasts, and clean UI with dynamic weather icons and animations.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">API Integration</span>
+              <span class="tech-badge">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/Weather-App" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card" data-category="web">
+            <div class="project-number">05</div>
+            <h3 class="project-title">Interactive To-Do List</h3>
+            <p class="project-desc">
+              A feature-rich task management application with drag-and-drop functionality, priority levels, and smooth animations. Built with vanilla JavaScript for optimal performance and user experience.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Drag & Drop</span>
+              <span class="tech-badge">UI/UX</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/bisu617/To-Do_List" class="project-link" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section" id="education">
+      <div class="education-section-content">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+          <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-year">2024 – Present</div>
+            <h3 class="education-title">Bachelor of Computer Science (BCS)</h3>
+            <p class="education-school">IIMS College – Affiliated with Taylor's University, Malaysia</p>
+            <p class="education-desc">
+              Currently in 3rd year, focusing on advanced software development, algorithms, data structures, and artificial intelligence fundamentals. Maintaining excellent academic performance while actively working on innovative personal projects and contributing to open-source communities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="section" id="contact">
+      <div class="contact-section-content">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-container">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <input type="text" class="form-input" id="name" name="name" placeholder=" " required maxlength="50" autocomplete="name">
+              <label class="form-label" for="name">Full Name</label>
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-input" id="email" name="email" placeholder=" " required maxlength="100" autocomplete="email">
+              <label class="form-label" for="email">Email Address</label>
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <textarea class="form-textarea" id="message" name="message" placeholder=" " required maxlength="1000"></textarea>
+              <label class="form-label" for="message">Your Message</label>
+              <span class="form-error" id="messageError"></span>
+              <div class="char-count"><span id="charCount">0</span>/1000</div>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span>Send Message</span>
+            </button>
+          </form>
+          
+          <div class="social-container">
+            <a href="https://github.com/bisu617" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bishesh-acharya-0a5151294/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/bishesh077/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://x.com/Bishesh077" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:bisheshacharya22@gmail.com" class="social-link" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Bishesh Acharya. All rights reserved.</p>
+    <p class="footer-tagline">Crafted with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+  </footer>
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
